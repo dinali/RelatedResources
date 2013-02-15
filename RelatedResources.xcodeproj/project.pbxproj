@@ -17,12 +17,15 @@
 		96172CF916CEDF84000ECD81 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96172CF816CEDF84000ECD81 /* Default@2x.png */; };
 		96172CFB16CEDF84000ECD81 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96172CFA16CEDF84000ECD81 /* Default-568h@2x.png */; };
 		96172CFE16CEDF84000ECD81 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96172CFC16CEDF84000ECD81 /* MainStoryboard.storyboard */; };
-		96172D0116CEDF84000ECD81 /* ERSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96172D0016CEDF84000ECD81 /* ERSViewController.m */; };
 		96172D0916CEDF84000ECD81 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96172D0816CEDF84000ECD81 /* SenTestingKit.framework */; };
 		96172D0A16CEDF84000ECD81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96172CE416CEDF83000ECD81 /* UIKit.framework */; };
 		96172D0B16CEDF84000ECD81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96172CE616CEDF83000ECD81 /* Foundation.framework */; };
 		96172D1316CEDF84000ECD81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96172D1116CEDF84000ECD81 /* InfoPlist.strings */; };
 		96172D1616CEDF84000ECD81 /* RelatedResourcesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96172D1516CEDF84000ECD81 /* RelatedResourcesTests.m */; };
+		96172D2116CEDFC3000ECD81 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96172D2016CEDFC3000ECD81 /* MainViewController.m */; };
+		96172D2416CEE951000ECD81 /* USEPAlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96172D2316CEE951000ECD81 /* USEPAlogo.jpg */; };
+		96172D2616CEEA04000ECD81 /* USDAlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96172D2516CEEA04000ECD81 /* USDAlogo.jpg */; };
+		96172D2816CEEAC5000ECD81 /* GlobalClimateChangeResearchProgram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96172D2716CEEAC5000ECD81 /* GlobalClimateChangeResearchProgram.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +53,17 @@
 		96172CF816CEDF84000ECD81 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		96172CFA16CEDF84000ECD81 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		96172CFD16CEDF84000ECD81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		96172CFF16CEDF84000ECD81 /* ERSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERSViewController.h; sourceTree = "<group>"; };
-		96172D0016CEDF84000ECD81 /* ERSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSViewController.m; sourceTree = "<group>"; };
 		96172D0716CEDF84000ECD81 /* RelatedResourcesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelatedResourcesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96172D0816CEDF84000ECD81 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		96172D1016CEDF84000ECD81 /* RelatedResourcesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RelatedResourcesTests-Info.plist"; sourceTree = "<group>"; };
 		96172D1216CEDF84000ECD81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96172D1416CEDF84000ECD81 /* RelatedResourcesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelatedResourcesTests.h; sourceTree = "<group>"; };
 		96172D1516CEDF84000ECD81 /* RelatedResourcesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelatedResourcesTests.m; sourceTree = "<group>"; };
+		96172D1F16CEDFC3000ECD81 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		96172D2016CEDFC3000ECD81 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		96172D2316CEE951000ECD81 /* USEPAlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = USEPAlogo.jpg; sourceTree = "<group>"; };
+		96172D2516CEEA04000ECD81 /* USDAlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = USDAlogo.jpg; sourceTree = "<group>"; };
+		96172D2716CEEAC5000ECD81 /* GlobalClimateChangeResearchProgram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GlobalClimateChangeResearchProgram.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				96172CF316CEDF83000ECD81 /* ERSAppDelegate.h */,
+				96172D1F16CEDFC3000ECD81 /* MainViewController.h */,
+				96172D2016CEDFC3000ECD81 /* MainViewController.m */,
 				96172CF416CEDF83000ECD81 /* ERSAppDelegate.m */,
 				96172CFC16CEDF84000ECD81 /* MainStoryboard.storyboard */,
-				96172CFF16CEDF84000ECD81 /* ERSViewController.h */,
-				96172D0016CEDF84000ECD81 /* ERSViewController.m */,
 				96172CEB16CEDF83000ECD81 /* Supporting Files */,
 			);
 			path = RelatedResources;
@@ -135,6 +141,9 @@
 				96172CF016CEDF83000ECD81 /* main.m */,
 				96172CF216CEDF83000ECD81 /* RelatedResources-Prefix.pch */,
 				96172CF616CEDF83000ECD81 /* Default.png */,
+				96172D2316CEE951000ECD81 /* USEPAlogo.jpg */,
+				96172D2516CEEA04000ECD81 /* USDAlogo.jpg */,
+				96172D2716CEEAC5000ECD81 /* GlobalClimateChangeResearchProgram.jpg */,
 				96172CF816CEDF84000ECD81 /* Default@2x.png */,
 				96172CFA16CEDF84000ECD81 /* Default-568h@2x.png */,
 			);
@@ -237,6 +246,9 @@
 				96172CF916CEDF84000ECD81 /* Default@2x.png in Resources */,
 				96172CFB16CEDF84000ECD81 /* Default-568h@2x.png in Resources */,
 				96172CFE16CEDF84000ECD81 /* MainStoryboard.storyboard in Resources */,
+				96172D2416CEE951000ECD81 /* USEPAlogo.jpg in Resources */,
+				96172D2616CEEA04000ECD81 /* USDAlogo.jpg in Resources */,
+				96172D2816CEEAC5000ECD81 /* GlobalClimateChangeResearchProgram.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +285,7 @@
 			files = (
 				96172CF116CEDF83000ECD81 /* main.m in Sources */,
 				96172CF516CEDF83000ECD81 /* ERSAppDelegate.m in Sources */,
-				96172D0116CEDF84000ECD81 /* ERSViewController.m in Sources */,
+				96172D2116CEDFC3000ECD81 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
